@@ -1,0 +1,8 @@
+{
+    "name": "OwOify Everything",
+    "description": "OwOifies all messages you send and receive. Ported from a Vencord plugin, originally borrowing logic from https://aqua-lzma.github.io/OwOify/discord",
+    "authors": [{ "name": "THETHINGFROMBFNIF", "id": "1391124491559637134" }],
+    "main": "index.js",
+    "vendetta.propium": {},
+    "spec": 3
+}
