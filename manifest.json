@@ -1,7 +1,7 @@
 {
     "name": "OwOify Everything",
     "description": "OwOifies all messages you send and receive. Ported from a Vencord plugin, originally borrowing logic from https://aqua-lzma.github.io/OwOify/discord",
-    "authors": [{ "name": "THETHINGFROMBFNIF", "id": "1391124491559637134" }],
+    "authors": [{ "name": "THEGUYFROMDOD", "id": "1391124491559637134" }],
     "main": "index.js",
-    "hash": "29671b9dd0c61a54545e7b856bb39bae4ca60a2bd0b01396f077c6f8586fc54f"
+    "hash": "1c4bb820b90dd21b9de814482d1f545669a3cc0c074c77a949d2b82a813b2444"
 }
