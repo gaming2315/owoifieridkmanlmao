@@ -25,7 +25,6 @@
   var { findByProps } = vendetta.metro;
   var { FluxDispatcher } = vendetta.metro.common;
   var { before } = vendetta.patcher;
-  var { showToast } = vendetta.ui.toasts;
   var MessageActions = findByProps("sendMessage", "editMessage");
   var wordMap = {
     mr: "mistuh",
@@ -242,12 +241,8 @@
   }
   var unpatchSendMessage;
   function onLoad() {
-    showToast(
-      MessageActions ? "OwOify: MessageActions module found, patching..." : "OwOify: MessageActions NOT FOUND \u2014 patch will not attach!"
-    );
     if (MessageActions) {
       unpatchSendMessage = before("sendMessage", MessageActions, (args) => {
-        showToast(`OwOify: sendMessage fired, args[1]=${JSON.stringify(args[1])}`);
         const messagePayload = args[1];
         if (messagePayload && typeof messagePayload === "object" && messagePayload.content) {
           messagePayload.content = owoify(messagePayload.content);
