@@ -20,8 +20,7 @@
   // index.ts
   var index_exports = {};
   __export(index_exports, {
-    onLoad: () => onLoad,
-    onUnload: () => onUnload
+    default: () => index_default
   });
   var { findByProps } = vendetta.metro;
   var { FluxDispatcher } = vendetta.metro.common;
@@ -261,5 +260,6 @@
     unpatchSendMessage?.();
     FluxDispatcher.unsubscribe("MESSAGE_CREATE", receiveMessagePatch);
   }
+  var index_default = { onLoad, onUnload };
   return __toCommonJS(index_exports);
 })();
