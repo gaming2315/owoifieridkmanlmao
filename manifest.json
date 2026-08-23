@@ -3,6 +3,5 @@
     "description": "OwOifies all messages you send and receive. Ported from a Vencord plugin, originally borrowing logic from https://aqua-lzma.github.io/OwOify/discord",
     "authors": [{ "name": "THETHINGFROMBFNIF", "id": "1391124491559637134" }],
     "main": "index.js",
-    "vendetta.propium": {},
-    "spec": 3
+    "hash": "29671b9dd0c61a54545e7b856bb39bae4ca60a2bd0b01396f077c6f8586fc54f"
 }
